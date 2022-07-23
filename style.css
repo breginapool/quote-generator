@@ -18,7 +18,7 @@ body {
 
 .container {
   width: 550px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .header {
@@ -84,9 +84,9 @@ body {
 @media screen and (max-width: 600px) {
   .main-content {
     max-width: 80%;
-    margin: 5px auto;
+    margin: 20px auto;
   }
   body {
-    display: block;
+    align-items: baseline;
   }
 }
