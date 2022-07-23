@@ -13,7 +13,7 @@ body {
   text-align: center;
   background: #262626 url('https://source.unsplash.com/1500x800/?people') no-repeat center
     bottom/cover;
-  backdrop-filter: blur(0px) grayscale(0.9);
+  backdrop-filter: grayscale(0.9);
 }
 
 .container {
