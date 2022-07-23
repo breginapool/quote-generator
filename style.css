@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: #262626 url('https://source.unsplash.com/random/?people') no-repeat center / cover;
+  backdrop-filter: blur(0px) grayscale(0.9);
+}
+
+.container {
+  width: 550px;
+  height: 450px;
+}
+
+.header {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  background-color: #262626;
+  padding: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-block-start: 2rem;
+}
+
+.main-content .person {
+  font-size: 1.5rem;
+  color: red;
+  text-transform: uppercase;
+  margin-block-start: 1rem;
+}
+
+.button-area button {
+  background-color: #262626;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1.3rem;
+  margin-block-start: 20px;
+  cursor: pointer;
+  transition: transform 0.1s;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px black;
+}
+
+.button-area button:active {
+  background-color: lightblue;
+  color: #262626;
+}
+
+.button-area button:focus {
+  outline: 2px solid white;
+}
+
+.button-area button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    max-width: 80%;
+    margin: 20px auto;
+  }
+}
