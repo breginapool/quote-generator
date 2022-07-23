@@ -84,6 +84,9 @@ body {
 @media screen and (max-width: 600px) {
   .main-content {
     max-width: 80%;
-    margin: 20px auto;
+    margin: 5px auto;
+  }
+  body {
+    display: block;
   }
 }
